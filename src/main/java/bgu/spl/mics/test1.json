@@ -1,0 +1,70 @@
+{
+    "inventory": [ 
+        "Sky Hook",
+        "X-ray glasses",
+        "Dagger shoe"
+    ],
+    "services": {
+        "M": 2,
+        "Moneypenny": 3,
+        "intelligence": [
+            {
+                "missions": [
+                    {
+                        "serialAgentsNumbers": [
+                            "006",
+                            "007"
+                        ],
+                        "duration": 3,
+                        "gadget": "Sky Hook",
+                        "name": "Thunderball",
+                        "timeExpired": 15,
+                        "timeIssued": 3
+                    },
+                    {
+                        "serialAgentsNumbers": ["008"],
+                        "duration": 2,
+                        "gadget": "Dagger shoe",
+                        "name": "GoldFinger",
+                        "timeExpired": 18,
+                        "timeIssued": 10
+                    }
+                ]
+            },
+            {
+                "missions": [
+                    {
+                        "serialAgentsNumbers": [
+                            "007",
+                            "006"
+                        ],
+                        "duration": 3,
+                        "gadget": "X-ray glasses",
+                        "name": "The World Is Not Enough",
+                        "timeExpired": 15,
+                        "timeIssued": 3
+                    },
+                    {
+                        "serialAgentsNumbers": ["007"],
+                        "duration": 2,
+                        "gadget": "X-ray glasses",
+                        "name": "From Russia With Love",
+                        "timeExpired": 100,
+                        "timeIssued": 10
+                    }
+                ]
+            }
+        ],
+        "time": 20
+    },
+    "squad": [
+        {
+            "name": "James Bond",
+            "serialNumber": "007"
+        },
+        {
+            "name": "Alec Trevelyan",
+            "serialNumber": "006"
+        }
+    ]
+}
